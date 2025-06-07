@@ -11,13 +11,13 @@ Despite its simple rule set, the ant's path eventually develops a recurring "hig
 
 The demo runs a sequence of MCP Tool calls that create a repository in your personal account.
 
-1. Install [GitHub MCP Server](https://github.com/github/github-mcp-server?tab=readme-ov-file#installation).
+1. Install [GitHub MCP Server](https://github.com/github/github-mcp-server#installation).
 2. Start the server (requires Docker).
 3. Open Copilot Chat in Agent mode (Sonnet models give the best results).
 4. Run: `/createRepo`
-5. Run: 
+5. Run: `Add an issue to split HTML, CSS and JS in separate files and assign it to me`
 ```
-Add an issue to split HTML, CSS and JS in separte files and assign it to me
+Add an issue to split HTML, CSS and JS in separate files and assign it to me
 ```
 6. Run:
 ```
