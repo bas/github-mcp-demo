@@ -12,7 +12,7 @@ Create a langton's ant simulation.
 For detailed specifications, please refer to the [Product Requirements Document](../../docs/PRD.md).
 
 ## Implementation Requirements
-- Create the repository in my personal account (bas)
+- Create the repository in my personal account
 - All code in a single index.html file
 - Follow the design provided in [ui.png](../../docs/design/ui.png)
 - Use HTML, CSS, and JavaScript
