@@ -40,5 +40,5 @@ For detailed specifications, please refer to the [Product Requirements Document]
   - Responsive behavior
   - Accessibility features
 - Once complete and verified:
-  - Create a gh_pages branch
+  - Create a gh-pages branch
   - Verify the deployment works correctly
