@@ -14,21 +14,17 @@ For detailed specifications, please refer to the [Product Requirements Document]
 ## Implementation Requirements
 - Create the repository in my personal account
 - All code in a single index.html file
-- Follow the design provided in [ui.png](../../docs/design/ui.png)
+- The implementation must be pixel-perfect and visually indistinguishable from [ui.png](../../docs/design/ui.png). 
+- All spacing, alignment, font sizes, colors, border radii, and element sizes must match the design exactly.
 - Use HTML, CSS, and JavaScript
 - The styling must be done using https://github.com/primer/css
 - Use default styles and make sure the start button is a primary button (green)
 
 ## Instructions
 - Start by sharing a detailed plan before you begin coding
+- Before coding, create a table of all design tokens (colors, font sizes, spacing, border radius, etc.) 
+  based on [ui.png](../../docs/design/ui.png) and use only these values.
 - Follow the requirements and implement the Langton's Ant simulation as specified in both the PRD and this file
-- Pay special attention to matching the UI design exactly:
-  - Grid must be centered in its container
-  - Statistics panel must be aligned to the right with consistent spacing
-  - Control panel must be below the grid with proper spacing between buttons and slider
-  - Font styles, sizes, and colors must match the design
-  - Button styles must use Primer CSS classes correctly
-  - Spacing between elements must match the design exactly
 - During implementation, continuously verify against:
   - The PRD requirements
   - The UI design in ui.png
@@ -39,6 +35,12 @@ For detailed specifications, please refer to the [Product Requirements Document]
   - Performance at different speeds
   - Responsive behavior
   - Accessibility features
+  - Page layout and styling
 - Once complete and verified:
-  - Create a gh-pages branch
-  - Verify the deployment works correctly
+  - Before finalizing, verify:
+    - All element sizes and positions match ui.png
+    - All fonts, colors, and spacings are identical
+    - No extra or missing visual elements
+  - After implementation, describe any visual differences between 
+    the result and ui.png, and iterate until there are none.
+  - Lastly create a gh-pages branch
